@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -18,7 +18,17 @@
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
   <!-- Slideshow CSS -->
-  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="slick/slick.js"></script>
+
+  <!-- My JavaScript -->
+  <script src="js/portfolio.js"></script>
+
+
 
 </head>
 
@@ -47,37 +57,33 @@
     </div>
   </nav>
 
-  <!-- big background image -->
-  <div class="container-fluid" id="full-width-slide">
-    <div class="container" id="slide1">
-
-    </div>
-  </div>
-
   <div class="container">
-
+    <div class="slider">
+      <div class="slide"><img src="images/toystory-desktop-large.png"></div>
+      <div class="slide"><img src="images/crossfit2.png"></div>
+    </div>
     <div class="hero-text">
       <h1>Hello! I am a product and interaction designer based in Austin, Texas. This September, I will be joining the IBM Design team to help create a smarter planet with data.</h1>
     </div>
 
+
   </div>
 
-</div><!-- /.container -->
+</div>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+    <!-- Slideshow JavaScript -->
+    <script type="slick/slick.js"></script>
 
     <!-- My JavaScript -->
     <script src="js/portfolio.js"></script>
 
-    <!-- Slideshow JavaScript -->
-    <script type="js/slick.js"></script>
 
   </body>
   </html>

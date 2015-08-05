@@ -6827,20 +6827,6 @@ ul {
   font-size: 12px;
 }
 
-.container-fluid {
-  /*background-image: url("../images/crossfit2.png");*/
-  background-size:100% auto;
-  background-repeat: no-repeat;
-  height: 700px;
-}
-
-#slide1.container {
- background-image: url("../images/toystory-desktop-large.png");
- background-size:100% auto;
- background-repeat: no-repeat;
- height: 100%;
-}
-
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -6856,4 +6842,15 @@ h2 {
   margin-bottom: 40px;
 } 
 
+.slider {
+  margin-top: 50px;
+}
+
+.slide {
+  width: 100%;
+}
+
+.slide img {
+  width: 100%;
+}
 

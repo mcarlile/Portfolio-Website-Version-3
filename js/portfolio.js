@@ -1,5 +1,9 @@
 $(document).ready(function(){
-  $('.your-class#full-width-slide').slick({
-    setting-name: setting-value;
-  });
+    $('.slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: false,
+    });
 });
