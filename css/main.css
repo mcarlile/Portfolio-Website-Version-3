@@ -6814,9 +6814,10 @@ button.close {
 /*! Custom CSS !*/
 
 .hero-text {
-  padding: 40px 15px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%; 
   text-align: center;
 }
 
@@ -6832,18 +6833,19 @@ h3 {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-align: left;
+  text-align: center;
+  margin-top: 5%;
 
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 0;
 } 
 
 .slider {
-  margin-top: 50px;
+  height: 30%;
 }
 
 .slide {
@@ -6851,6 +6853,6 @@ h2 {
 }
 
 .slide img {
-  width: 100%;
+  /*width: 100%;*/
 }
 
