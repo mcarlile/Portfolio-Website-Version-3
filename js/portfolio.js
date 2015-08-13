@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 $('.slider').on('afterChange', function(slick, currentSlide, nextSlide){
 	var slideInQuestion = currentSlide.$slides.get(currentSlide.currentSlide).getAttribute('id');
-	console.log(slideInQuestion);
+	// console.log(slideInQuestion);
 
 	if (slideInQuestion == 'mini') {
 		$('h2#projectName').text("Mini Cooper Lifelog Project");
