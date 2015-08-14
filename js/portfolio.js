@@ -18,15 +18,15 @@ $(document).ready(function(){
 // $('.slider').height(slideHeight);
 // console.log("Slider is now: " + $('.slider').height());
 
-$('.slider').on('afterChange', function(slick, currentSlide, nextSlide){
-	var slideInQuestion = currentSlide.$slides.get(currentSlide.currentSlide).getAttribute('id');
-	// console.log(slideInQuestion);
+// $('.slider').on('afterChange', function(slick, currentSlide, nextSlide){
+// 	var slideInQuestion = currentSlide.$slides.get(currentSlide.currentSlide).getAttribute('id');
+// 	// console.log(slideInQuestion);
 
-	if (slideInQuestion == 'mini') {
-		$('h2#projectName').text("Mini Cooper Lifelog Project");
-	} else if (slideInQuestion == 'crossfit') {
-		$('h2#projectName').text("Crossfit Design Exercise");
-	} else {
-		$('h2#projectName').text("Disney Interactive Internship Project");
-	}
-});
+// 	if (slideInQuestion == 'mini') {
+// 		$('h2#projectName').text("Mini Cooper Lifelog Project");
+// 	} else if (slideInQuestion == 'crossfit') {
+// 		$('h2#projectName').text("Crossfit Design Exercise");
+// 	} else {
+// 		$('h2#projectName').text("Disney Interactive Internship Project");
+// 	}
+// });

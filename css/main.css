@@ -6814,11 +6814,29 @@ button.close {
 /*! Custom CSS !*/
 
 .hero-text {
-  padding-right: 10%;
-  padding-left: 10%;
+
   padding-top: 5%;
   padding-bottom: 5%; 
-  text-align: center;
+}
+
+.hero-text h1 {
+}
+
+@media (min-width: 992px) {
+  .hero-text {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-text h1 {
+    font-size: 72px;
+
+  }
 }
 
 ul {
