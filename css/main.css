@@ -6835,6 +6835,13 @@ button.close {
   #portrait img{
     margin-top: 50%;
   }  
+
+  #contact.container, #about.container  {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media (min-width: 1200px) {
   .hero-text h1 {
@@ -6844,8 +6851,7 @@ button.close {
   #portrait img {
     margin-top: 20%;
     padding-left: 5%;
-  }  
-
+  } 
 }
 
 ul {
@@ -6879,8 +6885,8 @@ h3 {
 #contact.container, #about.container  {
   padding-top: 5%;
   padding-bottom: 5%;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #contact.container h1, #about.container h1 {
