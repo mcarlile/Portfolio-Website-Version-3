@@ -6913,3 +6913,18 @@ p {
   margin-bottom: 5%;
 }
 
+#social-buttons {
+  margin-top: 10px;
+}
+
+a.btn {
+  background-color: #EDEDED;
+  color: #333;
+}
+
+a.btn:hover {
+  background-color: #D1D1D1;
+  color: #333;
+
+
+}
