@@ -4337,7 +4337,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: 0;
+    padding-left: 0;
   }
 }
 .navbar-toggle {
@@ -6815,12 +6815,20 @@ button.close {
 
 .hero-text {
 
-  padding-top: 5%;
   padding-bottom: 10%; 
 }
 
-.hero-text h1 {
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
+
+@media (min-width: 768px) {
+  h1 {
+  }
+}
+
 
 @media (min-width: 992px) {
   .hero-text {
@@ -6828,24 +6836,27 @@ button.close {
     padding-left: 5%;
   }
 
-  .hero-text h1 {
+  h1 {
     font-size: 48px;
+    margin-bottom: 30px;
   }
 
   #portrait img{
     margin-top: 50%;
   }  
 
-  #contact.container, #about.container  {
+  .container  {
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 0;
-    padding-right: 0;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
   }
 }
 @media (min-width: 1200px) {
-  .hero-text h1 {
+  h1 {
     font-size: 64px;
+    margin-bottom: 40px;
+
   }
 
   #portrait img {
@@ -6870,38 +6881,19 @@ h3 {
 
 }
 
-.slider {
-  height: 30%;
-}
-
-.slide {
-  width: 100%;
-}
-
-.slide img {
-  /*width: 100%;*/
-}
-
-#contact.container, #about.container  {
+.container  {
   padding-top: 5%;
   padding-bottom: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
-#contact.container h1, #about.container h1 {
-  margin-top: 0;
-  margin-bottom: 40px;
-  font-size: 64px
+#navigation.container {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #contact.container h3 {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-#navigation.container {
-  padding-left: 0;
 }
 
 .row img {
