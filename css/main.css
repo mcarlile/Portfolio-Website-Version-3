@@ -6974,6 +6974,7 @@ font-size: 18px;
   text-transform: uppercase;
   letter-spacing: normal;
   margin-bottom: 25px;
+  text-decoration: underline;
 }
 
 #resume h3 {
