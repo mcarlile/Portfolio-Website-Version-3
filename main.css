@@ -6824,6 +6824,10 @@ h1 {
   font-size: 28px;
 }
 
+.center-quote p{
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   h1 {
   }
@@ -7029,4 +7033,19 @@ h2#skills {
 #project4 {
   background-color: #334D5C;
 }
+
+#project1 h3 {
+  margin-top: 0;
+  color: white;
+}
+
+#centered  {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+
+
+
 

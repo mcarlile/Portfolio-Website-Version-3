@@ -6824,6 +6824,10 @@ h1 {
   font-size: 28px;
 }
 
+.center-quote p{
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   h1 {
   }
@@ -6966,11 +6970,10 @@ a.btn:hover {
 
 #resume h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 28px;
   text-transform: uppercase;
   letter-spacing: normal;
   margin-bottom: 25px;
-  text-decoration: underline;
 }
 
 #resume h3 {
@@ -7030,3 +7033,75 @@ h2#skills {
   background-color: #334D5C;
 }
 
+#project1 h3 {
+  margin-top: 0;
+  /*color: white;*/
+}
+
+#project1.navbar-inverse .navbar-nav > li > a {
+  color: #333;
+}
+
+#project1.navbar-inverse .navbar-nav > li > a:hover {
+  color: black;
+}
+
+#project1 h1 {
+  margin-bottom: 10px;
+}
+
+#case-study h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 28px;
+}
+
+#centered  {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col-md-6 ul {
+ font-family: 'EB Garamond', serif;
+ text-transform: none;
+ letter-spacing: normal;
+ font-size: 24px;
+ margin-top: 10px;
+}
+
+.row {
+  margin-bottom: 5%;
+}
+
+#quote {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: italic;
+
+}
+
+#citation {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+
+}
+
+.testemonials h3 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10%;
+}
+
+.testemonials #quote {
+  margin-bottom: 20px;
+}
+
+.testemonials #citation {
+  font-size: 12px;
+}
