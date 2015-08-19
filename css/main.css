@@ -6961,20 +6961,16 @@ a.btn:hover {
   color: white;
 }
 
+#case-studies h1 {
+  margin-top: 0;
+}
+
+#case-studies sup {
+  text-decoration: underline;
+}
+
 #project1 {
   background-color: #EFC94C;
-}
-
-#project2 {
-  background-color: #45B29D;
-}
-
-#project3 {
-  background-color: #E27A3F;
-}
-
-#project4 {
-  background-color: #334D5C;
 }
 
 #project1.navbar-inverse .navbar-nav > li > a {
@@ -6989,11 +6985,44 @@ a.btn:hover {
   margin-bottom: 10px;
 }
 
+#project2 {
+  background-color: #45B29D;
+}
+
+#project2 h1, #project2 h3{
+  color: white;
+}
+
+#project2.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+#project2.navbar-inverse .navbar-nav > li > a:hover {
+  color: #333;
+}
+
+#project2.navbar-brand {
+  color: white;
+}
+
+#project1 h1 {
+  margin-bottom: 10px;
+}
+
+#project3 {
+  background-color: #E27A3F;
+}
+
+#project4 {
+  background-color: #334D5C;
+}
+
 #centered  {
   text-align: center;
-  font-size: 18px;
- margin: 5%;
-
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10% ;
 }
 
 .col-md-6 ul {
