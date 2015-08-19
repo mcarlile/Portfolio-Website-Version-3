@@ -7022,7 +7022,6 @@ a.btn:hover {
 
 #citation {
   text-align: center;
-  margin-top: 15px;
 
 }
 
@@ -7033,4 +7032,8 @@ a.btn:hover {
 .testemonials h2 {
   margin-top: 10%;
   margin-bottom: 5%;
+}
+
+.quote-container {
+  margin: 10%;
 }
