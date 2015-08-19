@@ -6985,6 +6985,10 @@ a.btn:hover {
   margin-bottom: 10px;
 }
 
+#project1 h1 {
+  margin-bottom: 10px;
+}
+
 #project2 {
   background-color: #45B29D;
 }
@@ -7005,12 +7009,28 @@ a.btn:hover {
   color: white;
 }
 
-#project1 h1 {
-  margin-bottom: 10px;
+#project2 {
+  background-color: #E27A3F;
 }
 
 #project3 {
-  background-color: #E27A3F;
+  background-color: #45B29D;
+}
+
+#project3 h1, #project3 h3{
+  color: white;
+}
+
+#project3.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+#project3.navbar-inverse .navbar-nav > li > a:hover {
+  color: #333;
+}
+
+#project3.navbar-brand {
+  color: white;
 }
 
 #project4 {
@@ -7065,4 +7085,20 @@ a.btn:hover {
 
 .quote-container {
   margin: 10%;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image1 {
+  background-image: url("../images/journal.jpg");
+}
+
+#image-quote {
+  color: white;
 }
