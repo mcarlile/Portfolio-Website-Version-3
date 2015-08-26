@@ -6790,6 +6790,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 12px;
+  letter-spacing: 2px;
 }
 
 
@@ -7037,6 +7038,22 @@ a.btn:hover {
   background-color: #334D5C;
 }
 
+#project5 {
+  background-color: #5b3556
+}
+
+#otherprojects {
+  background-color: #333;
+}
+
+#otherprojects h1 {
+  color: white;
+}
+
+#otherprojects p {
+  margin-bottom: 0;
+}
+
 #centered  {
   text-align: center;
   margin-top: 5%;
@@ -7096,6 +7113,10 @@ a.btn:hover {
 }
 
 .image1 {
+  background-image: url("../images/journal.jpg");
+}
+
+.image2 {
   background-image: url("../images/journal.jpg");
 }
 
