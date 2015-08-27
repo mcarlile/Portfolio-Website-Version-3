@@ -1617,8 +1617,8 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+/*  padding-right: 15px;
+padding-left: 15px;*/
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -6798,6 +6798,13 @@ h3 {
   text-align: center;
 }
 
+.navbar-inverse ul {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 48px;
@@ -6863,12 +6870,10 @@ h3 {
   } 
 }
 
-ul {
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-}
+
+
+
+
 
 .container  {
   padding-top: 5%;
@@ -6892,7 +6897,7 @@ ul {
   text-align: center;
 }
 
-p {
+p, ul, ol {
   font-size: 24px;
   margin-bottom: 5%;
 }
@@ -6970,20 +6975,38 @@ a.btn:hover {
   text-decoration: underline;
 }
 
-#project1 {
-  background-color: #EFC94C;
+
+#project h1, #project h3{
+  color: white;
 }
 
-#project1.navbar-inverse .navbar-nav > li > a {
+#project.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+#project.navbar-inverse .navbar-nav > li > a:hover {
   color: #333;
 }
 
-#project1.navbar-inverse .navbar-nav > li > a:hover {
-  color: black;
+#project.navbar-brand {
+  color: white;
 }
 
-#project1 h1 {
-  margin-bottom: 10px;
+#project > li > a {
+  color: white;
+}
+
+#project > li > a:hover {
+  color: #333;
+}
+
+#project .navbar-inverse {
+  background-color: transparent;
+  border-color: #080808;
+}
+
+#project1 {
+  background-color: #EFC94C;
 }
 
 #project1 h1 {
@@ -6992,22 +7015,6 @@ a.btn:hover {
 
 #project2 {
   background-color: #45B29D;
-}
-
-#project2 h1, #project2 h3{
-  color: white;
-}
-
-#project2.navbar-inverse .navbar-nav > li > a {
-  color: white;
-}
-
-#project2.navbar-inverse .navbar-nav > li > a:hover {
-  color: #333;
-}
-
-#project2.navbar-brand {
-  color: white;
 }
 
 #project2 {
@@ -7016,22 +7023,6 @@ a.btn:hover {
 
 #project3 {
   background-color: #45B29D;
-}
-
-#project3 h1, #project3 h3{
-  color: white;
-}
-
-#project3.navbar-inverse .navbar-nav > li > a {
-  color: white;
-}
-
-#project3.navbar-inverse .navbar-nav > li > a:hover {
-  color: #333;
-}
-
-#project3.navbar-brand {
-  color: white;
 }
 
 #project4 {
@@ -7053,6 +7044,12 @@ a.btn:hover {
 #otherprojects p {
   margin-bottom: 0;
 }
+
+
+
+
+
+
 
 #centered  {
   text-align: center;
@@ -7122,4 +7119,12 @@ a.btn:hover {
 
 #image-quote {
   color: white;
+}
+
+#grid {
+ padding: 15px;
+}
+
+#no-padding {
+  padding: 0;
 }
