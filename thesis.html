@@ -59,23 +59,31 @@
   <div id="project3">
 
     <div class="container-fluid" id="project">
-      <div class="container">
-        <h1>USC Media Arts Honors Thesis</h1>
+      <div class="container" id="paddedcontainer">
+        <h1>USC Media Arts Honors Thesis Project</h1>
         <h3>Spring 2015</h3>
       </div>
     </div> 
 
   </div>
 
-  <div class="container">
-
-    <h2>The Project</h2>
-    <p>"65401" is an interactive installation that visualizes the life of a real estate agent in a rural Missouri town in 1988 through metadata taken from her datebook.</p> 
+  <div class="container" id="paddedcontainer">
 
     <div class="row">
+      <div class="container">
+
+        <h2>The Project</h2>
+        <p>"65401" is an interactive installation that visualizes the life of a real estate agent in a rural Missouri town in 1988 through metadata taken from her datebook.</p> 
+
+      </div>
+    </div>
+
+    <div class="row">
+
       <div class="col-md-6 col-md-push-6 second">
         <img src="images/grammy.png">
       </div>
+
       <div class="col-md-6 col-md-pull-6 first">
         <h2>Abstract</h2>
         <p>Now more than ever, people interested in quantifying life experiences have access to an unprecedented deluge of information about their own personal health, travel and communication patterns. Lifelogging projects in the connected age analyze and visualize these rich trails of data that are a byproduct of life online.</p>
@@ -88,7 +96,7 @@
 
   <div clas="container-fluid">
     <div class="image image1">
-      <div class="container">
+      <div class="container" id="paddedcontainer">
         <div class="row">
           <div class="col-lg-12" id="image-quote">
             <h1>"I think of my datebook as an external information organ, a piece of my brain made out of paper instead of cells."</h1>
@@ -101,7 +109,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="container">
         <h2>Background</h2>
         <p>The process of visualizing intangible data in physical installations is an exciting and relatively new area of design research. This installation process has been informed and inspired by the following projects.</p>
       </div>
@@ -155,7 +163,11 @@
     </div>
 
     <div class="row">
-      <h2>Process</h2>
+
+      <div class="container">
+        <h2>Process</h2>        
+      </div>
+      
       <div class="col-md-6">
         <h3>Data Entry Methods</h3>
         <p>Extracting the data to be visualized for my project was a time consuming endeavor. During this phase of the project, I discovered that optical character recognition software doesn't work with handwritten letters. Although I have access to journals from 1988, 1989 and 1990, I  found that I would only have enough time to encode and visualize one of these years. My challenge was to encode 300 JPG scanned images of handwritten notes with scribbles, doodles and coffee stains into something that can be parsed by a computer. I turned to Amazon Mechanical Turk to try to minimize the hours I would spend hand copying her notes into a XML document. I funded my AMT account with $10 and created 43 Human Intelligence Tasks. I created an HTML template that would show the image I needed transcoded on the left side of the screen and fields to input text dates and entry values. Only 5 of 43 were submitted, however, so I had to try another strategy to finish the project.</p>
@@ -227,19 +239,25 @@
       </div>
     </div>
 
+    <div id="paddedcontainer"></div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="container">
+          <p>I finally settled on an 8x8 grid visualization to map the locations that my grandmother mentioned in her journal. Presenting the information with such low fidelity represents the inexact nature of the handwritten data set and data extraction process. </p>
+
+          <p>I've included an example of this process above. For each week, I plotted all points from the dataset into a Mapbox project, broke the map into 64 equally-sized portions and encoded each section with a color in accordance to the frequency of locations mentioned that week.</p>
+        </div>
+      </div>
+    </div>
+
     <h3>Final Visualization</h3>
     <div class="row">
       <div class="col-lg-12">
         <img src="images/segmentedaddresses.png">
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <p>I finally settled on an 8x8 grid visualization to map the locations that my grandmother mentioned in her journal. Presenting the information with such low fidelity represents the inexact nature of the handwritten data set and data extraction process. </p>
 
-        <p>I've included an example of this process above. For each week, I plotted all points from the dataset into a Mapbox project, broke the map into 64 equally-sized portions and encoded each section with a color in accordance to the frequency of locations mentioned that week.</p>
-      </div>
-    </div>
 
     <!-- <h3>Interactive Visualization</h3>
     <div class="row">
@@ -253,12 +271,16 @@
     </div> -->
 
 
-    <h3>Interface Blueprint</h3>
     <div class="row">
-      <div class="col-lg-12">
-        <p>The final part of the project involves building the physical installation and coding the interactive interface. To reflect the fact that the information being visualized was originally stored in a physical artifact, I wanted my interface to be uniquely tactile. Viewers will navigate throughout time by twisting a physical control knob. The number of the current week is displayed above the LED matrix using a 7-segment display board.</p>
+      <div class="container"> 
+        <h3>Interface Blueprint</h3>
+
+        <div class="col-lg-12">
+          <p>The final part of the project involves building the physical installation and coding the interactive interface. To reflect the fact that the information being visualized was originally stored in a physical artifact, I wanted my interface to be uniquely tactile. Viewers will navigate throughout time by twisting a physical control knob. The number of the current week is displayed above the LED matrix using a 7-segment display board.</p>
+        </div>
       </div>
     </div>
+
     <div class="row">
       <div class="col-lg-12">
         <img src="images/elevation.png">
@@ -361,29 +383,30 @@
   </div>
 </div>
 
-<div class="row" id="no-padding">
+<div class="row">
   <div class="col-md-6" id="grid">
-   <img src="images/thesis-installation5.jpg">
+   <img src="images/thesis-installation6.jpg">
  </div>
  <div class="col-md-6" id="grid">
    <img src="images/thesis-installation3.jpg">
  </div>
 </div>
 
-<div class="row" id="no-padding">
+<div class="row">
  <div class="col-md-6" id="grid">
    <img src="images/thesis-installation4.jpg">
  </div>
- <div class="col-md-6" id="grid">
-   <img src="images/thesis-installation6.jpg">
+ <div class="col-md-6">
+   <img src="images/thesis-installation5.jpg">
  </div>
 </div>
 
+<div id="paddedcontainer"></div>
 </div>
 
 <div clas="container-fluid">
   <div class="image image1">
-    <div class="container">
+    <div class="container" id="paddedcontainer">
       <div class="row">
         <div class="col-lg-12" id="image-quote">
           <h1>"There is a kind of magic to a map... We explore an area, we document it. And in doing so we create a thing, an artifact, that outlines and represents our understanding of that space."</h1>
@@ -398,7 +421,7 @@
  <h2>Works Cited</h2>
  <p>The following pieces have inspired the development of this research design venture. Special thanks to Virginia Kuhn, Elizabeth Ramsey, Sonia Seetherman, Raphael Arar and Michael Bodie for guiding this design process. </p>
  <div class="row">
-  <div class="col-md-4">
+   <div class="col-md-4" id="works-cited-column">
     <h3>Installations</h3>
     <p>Big Bang Data, Centre de Cultura Contemporania de Barcelona. 2014.</p>
     <p>Listening Post, by Mark Hansen and Ben Rubin. 2001.</p>
@@ -406,17 +429,26 @@
     <p>eCloud, by Aaron Koblin, Nik Hafermaas and Dan Goods. 2010.</p>
     <p>Immaterials Light Painting, by Timo Arnall, Jorn Knutsen and Einar Sneve Martinussen. 2011.</p>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4" id="works-cited-column">
    <h3>Writing</h3>
    <p>Evocative Objects, Cherry Turkle. 2007.</p>
    <p>The Visual Display of Quantiative Information, Edward Tufte. 1983.</p>
    <p>The Annual Report of Feltron, #8 and #9, Nicholas Felton. 2012-2013.</p>
  </div>
- <div class="col-md-4">
+ <div class="col-md-4" id="works-cited-column">
    <h3>Talks</h3>
    <p>Eccentric Spaces, Robert Harrison. <a href="http://vimeo.com/63525054">Video</a></p>
    <p>The Map is Not the Territory, Ethan Marcotte. <a href="http://vimeo.com/63525054">Video</a></p>
    <p>Too Big to Fail, Reaktor Design Day 2014, Nicholas Felton. <a href="http://vimeo.com/109119931">Video</a></p>
+ </div>
+</div>
+
+<div class="row">
+ <div id="nextproject">
+   <div class="container">
+     <p><em>Looking for the next project?</em></p>
+     <h2><a href="crossfit.html">Crossfit Redesign Exercise</a></h2>
+   </div>
  </div>
 </div>
 
