@@ -6785,6 +6785,18 @@ button.close {
   margin-bottom: 50px;
 }
 
+#nextproject {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#previousproject {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 
 h1 {
   font-size: 36px;
@@ -6817,6 +6829,23 @@ h3 {
   letter-spacing: 2px;
   font-size: 12px;
 }
+
+#nextproject {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+#previousproject {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#featuredescription {
+  margin-top: 0;
+}
+
 
 @media (min-width: 768px) {
   h1 {
@@ -6851,6 +6880,10 @@ h3 {
     padding: 0px;
   }
 
+  .hidefordesktop {
+    display: none;
+  }
+
 
 }
 
@@ -6874,36 +6907,47 @@ h3 {
     margin-top: 50%;
   }  
 
-
-/*  .container  {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    }*/
+  #nextproject {
+    text-align: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
-  @media (min-width: 1200px) {
-    h1 {
-      font-size: 64px;
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      /*    font-size:;*/ 
-    }
-
-    h3 {
-      /*font-size:;*/
-    }
-
-    h4 {
-      /*font-size:;*/
-    }
-
-    #portrait img {
-      margin-top: 30%;
-      padding-left: 5%;
-    } 
+  #previousproject {
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
+
+  #featuredescription {
+    margin-top: 25%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    /*    font-size:;*/ 
+  }
+
+  h3 {
+    /*font-size:;*/
+  }
+
+  h4 {
+    /*font-size:;*/
+  }
+
+  #portrait img {
+    margin-top: 30%;
+    padding-left: 5%;
+  } 
+}
 
 
 
@@ -7088,25 +7132,15 @@ h3 {
 }
 
 
-#nextproject {
-  text-align: right;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-#nextproject a {
-/*  color: #333;
-text-decoration: underline;*/
-}
-
-#nextproject p {
+#nextproject p, #previousproject p{
   margin-bottom: 0;
 }
 
-#nextproject h1 {
+#nextproject h1, #previousproject h1 {
   margin-bottom: 0;
 }
 
-#nextproject h2 {
+#nextproject h2, #previousproject h2 {
   margin-top: 10px;
 }
 
@@ -7166,6 +7200,14 @@ text-decoration: underline;*/
   background-image: url("../images/journal.jpg");
 }
 
+.image3 {
+  background-image: url("../images/nike-comp5.png");
+}
+
+.image4 {
+  background-image: url("../images/dohenyclub-visualdesign.jpg");
+}
+
 #image-quote {
   color: white;
 }
@@ -7193,4 +7235,9 @@ text-decoration: underline;*/
 
 #works-cited-column.col-md-4 {
   padding: 10px;
+}
+
+#stats p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
