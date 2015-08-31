@@ -19,9 +19,6 @@
   <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-  <!-- Slideshow CSS -->
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
 </head>
 
@@ -87,7 +84,7 @@
       <div class="col-md-6 col-md-pull-6 first">
         <h2>Abstract</h2>
         <p>Now more than ever, people interested in quantifying life experiences have access to an unprecedented deluge of information about their own personal health, travel and communication patterns. Lifelogging projects in the connected age analyze and visualize these rich trails of data that are a byproduct of life online.</p>
-        <p>Unlike most lifelong projects, however, this installation interprets metadata extracted from a physical, non-digital artifact. 65401 is an interactive visualization of a small town in the Ozark mountains generated from the personal datebook my grandmother used when she worked as a real estate agent in the 1980s. Viewers use a tangible interface to generate a map of the town based off addresses, phone numbers and locations mentioned in this journal.</p>
+        <p>Unlike most lifelogging projects, however, this installation interprets metadata extracted from a physical, non-digital artifact. 65401 is an interactive visualization of a small town in the Ozark mountains generated from the personal datebook my grandmother used when she worked as a real estate agent in the 1980s. Viewers use a tangible interface to generate a map of the town based off addresses, phone numbers and locations mentioned in this journal.</p>
         <p>The goal of this installation is to map this geographic metadata in a public gallery context without revealing any of the diary’s original contents. The project explores data visualization theory, crowdsourced human intelligence, the limits of computer vision, and the interaction design of tangible interfaces.</p>
       </div>
     </div>
@@ -276,7 +273,7 @@
         <h3>Interface Blueprint</h3>
 
         <div class="col-lg-12">
-          <p>The final part of the project involves building the physical installation and coding the interactive interface. To reflect the fact that the information being visualized was originally stored in a physical artifact, I wanted my interface to be uniquely tactile. Viewers will navigate throughout time by twisting a physical control knob. The number of the current week is displayed above the LED matrix using a 7-segment display board.</p>
+          <p>The final part of the project involves building the physical installation and coding the interactive interface. To reflect the fact that the information being visualized was originally stored in a physical artifact, I wanted my interface to be uniquely tactile. Viewers will navigate throughout time by twisting a physical control knob. The number of the current week is displayed next to the control knob using a 7-segment display board.</p>
         </div>
       </div>
     </div>
@@ -304,7 +301,7 @@
       <img src="images/drywall.png">
     </div>
     <div class="col-md-6">
-      <p>To keep build costs down, I have decided to repurpose an IKEA Kallax bookshelf to serve as the external frame. However, since this is a 4x4 grid, I had to use drywall to construct an internal frame for the 8x8 grid. 
+      <p>To keep build costs down, I decided to repurpose an IKEA Kallax bookshelf to serve as the external frame. However, since this is a 4x4 grid, I had to use drywall to construct an internal frame for the 8x8 grid. This was a massive and frustrating project.
       </p>
     </div>
   </div>
@@ -314,7 +311,7 @@
      <img src="images/wiring.jpg">
    </div>
    <div class="col-md-6">
-     <p>To create the grid on which the visualization will be displayed, I am using an 8x8 grid of RGB LEDs. I've attached foam board to the back of the shelf to easily mount and adjust the LEDs.
+     <p>To create the grid on which the visualization will be displayed, I used an 8x8 grid of RGB LEDs. I attached foam board to the back of the shelf to easily mount and adjust the LEDs.
      </p>
    </div>
  </div>
@@ -335,7 +332,7 @@
    <img src="images/colorduino.jpg">
  </div>
  <div class="col-md-6">
-   <p>The rows and columns of the LED matrix interface with the Arduino Uno through a RGB matrix shield called a Colorduino. The Arduino is then connected to a mac running a processing sketch. </p>
+   <p>The rows and columns of the LED matrix interface with the Arduino Uno through a RGB matrix shield called a Colorduino. The Arduino is then connected to a MacBook running a processing sketch. This part of the project was heavily influenced by an open source project by <a href="http://www.instructables.com/member/lincomatic/">@Lincomatic</a>.</p>
  </div>
 </div>
 
@@ -356,8 +353,8 @@
     <img src="images/thesis-controller.JPG">
   </div>
   <div class="col-md-6">
-   <p>For the installation, I needed to create an enclosure for the date display and control dial.</p>
- </div>
+    <p>For the installation, I needed to create an enclosure for the date display and control dial. Duct tape to the rescue!</p>
+  </div>
 </div>
 
 <h3>Installation in the sound stage</h3>
@@ -373,9 +370,9 @@
 <h2>The Final Project</h2>
 <p>The project was installed at the USC School of Cinematic Arts during the Media Arts + Practice thesis showcase from May 10 - 13. Since this was my first time designing an interactive installation, I learned a lot about designing phsyical things. After watching my visitors interact with the map, it was clear I should have paid more attention to the control dial. Even with the feedback of the small LCD screen, the continuous scroll of the mechanism confused viewers. After scrolling to the end of the year, they continued twisting the dial, making it appear broken. A knob with tactile notches for each month would have been much more effective.</p>
 
-<p>If I could have more time to rebuild the project, I would have made it smaller and brighter and I wouldn't have messed with retrofitting it a preexisting cabinet. It could have been much more precise if I had built the frame out of wood and laquered it myself.</p>
+<p>If I could have more time to rebuild the project, I would have made it smaller and brighter and I wouldn't have messed with retrofitting it into a preexisting cabinet. It could have been much more precise if I had built the frame out of wood and laquered it myself.</p>
 
-<p>Still, it was a joy to work with my hands and build something tangible. I can't wait to work on the next installation project!</p>
+<p>Still, this thesis project was a joy because it gave me a chance to work with my hands and build something tangible. I can't wait to work on the next installation project!</p>
 
 <div class="row">
   <div class="col-lg-12">
@@ -472,8 +469,6 @@
 <!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="slick/slick.js"></script>
-<script src="js/portfolio.js"></script>
 
 
 </body>
