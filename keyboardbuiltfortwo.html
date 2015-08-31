@@ -11,8 +11,12 @@
   <title>McKenzie Carlile's Design Portfolio</title>
 
   <!-- CSS Files -->
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/bootstrap-social.css" rel="stylesheet">
+
+  <link href="../../css/main.css" rel="stylesheet">
+  <link href="../../css/bootstrap-social.css" rel="stylesheet">
+
+<!--   <link href="css/main.css" rel="stylesheet">
+  <link href="css/bootstrap-social.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!--   Google Fonts -->
@@ -76,10 +80,21 @@
     <div class="container">
       <h2>The Project</h2>
       <p><em>A Keyboard Built for Two</em> is a game about intimacy and competition. Made in Unity 3D in two weeks for Immersive Design Workshop at the University of Southern California. Requires Firefox or Safari to easily run the Unity web player</p>
+    </div>
 
-      <p><a href="keyboard.html">Play Now</a></p>
-
-
+    <div class="content">
+      <div id="unityPlayer">
+        <div class="missing">
+          <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+            <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+          </a>
+        </div>
+        <div class="broken">
+          <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+            <img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+          </a>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -113,9 +128,9 @@
 
 <!-- Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="../../js/bootstrap.js"></script>
 <script src="slick/slick.js"></script>
-<script src="js/portfolio.js"></script>
+<script src="../../js/portfolio.js"></script>
 
 
 </body>
