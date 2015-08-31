@@ -1,2 +1,0 @@
-# Portfolio 3
-This is the third version of mckenziecarlile.com that should go live before September 1, 2015. 
