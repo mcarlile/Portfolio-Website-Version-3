@@ -118,8 +118,8 @@
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
-html {
-  font-size: 62.5%; }
+/*html {
+  font-size: 62.5%; }*/
 body {
 /*  font-size: 1.5em;  currently ems cause chrome bug misinterpreting rems on body element 
   line-height: 1.6;
@@ -130,42 +130,46 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, p {
   margin-top: 0;
-  margin-bottom: 2rem;
-  font-weight: 300; 
   color: #323232;}
 
 
-h1 { font-size: 27px; line-height: 1.875; font-weight: 700}
-h2 { font-size: 22px; line-height: 1.875; font-weight: 300}
-h3 { font-size: 18px; line-height: 1.563; font-weight: 300}
-p { font-size: 14px; line-height: 1.313 }
+h1 { font-size: 27px; line-height: 1.875; font-weight: 700; margin-bottom: 42px}
+h2 { font-size: 22px; line-height: 1.875; font-weight: 300; margin-bottom: 21px}
+h3 { font-size: 18px; line-height: 1.563; font-weight: 300; margin-bottom: 21px;}
+p { font-size: 14px; line-height: 1.313; margin-bottom: 21px}
 
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 31px; line-height: 2.188; }
-  h2 { font-size: 25px; line-height: 1.813; }
-  h3 { font-size: 20px; line-height: 1.5}
-  p { font-size: 16px; line-height: 1.75}
-
-
-
+  h1 { font-size: 31px; line-height: 2.188; margin-bottom: 56px}
+  h2 { font-size: 25px; line-height: 1.813; margin-bottom: 28px}
+  h3 { font-size: 20px; line-height: 1.5; margin-bottom: 28px}
+  p { font-size: 16px; line-height: 1.75; margin-bottom: 28px}
 }
 
-p {
-  font-size: 
-  margin-top: 0;
-  color: #323232}
+
+
+
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700
+}
 
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  text-decoration: none;
+  color: #464646
+
+}
 a:hover {
-  color: #0FA0CE; }
+  color: #121212; }
 
 
 /* Buttons
@@ -458,12 +462,116 @@ there.
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.f {
+.footer {
   background-color: #323232
 }
 
 
 
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.white {
+  color: white;
+}
+
+.gray70 {
+  color: #464646;
+}
 
 
+/* Positioning Utility Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.marginBottomSingle {
+  margin-bottom: 21px;
+}
+
+.marginBottomDouble {
+  margin-bottom: 42px;
+}
+
+.marginTopSingle {
+  margin-top: 21px;
+}
+
+.marginTopDouble {
+  margin-top: 42px;
+}
+
+.paddingBottomSingle {
+  padding-bottom: 21px;
+}
+
+.paddingBottomDouble {
+  padding-bottom: 42px;
+}
+
+.paddingTopSingle {
+  padding-top: 21px;
+}
+
+.paddingTopDouble {
+  padding-top: 42px;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .marginBottomSingle {
+  margin-bottom: 28px;
+}
+
+.marginBottomDouble {
+  margin-bottom: 56px;
+}
+
+
+.marginTopSingle {
+  margin-top: 28px;
+}
+
+.marginTopDouble {
+  margin-top: 56px;
+}
+
+.paddingBottomSingle {
+  padding-bottom: 28px;
+}
+
+.paddingBottomDouble {
+  padding-bottom: 56px;
+}
+
+.paddingTopSingle {
+  padding-top: 28px;
+}
+
+.paddingTopDouble {
+  padding-top: 56px;
+}
+}
+
+/* Display Utility Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.hideMobile {
+  display: none;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .hideMobile {
+  display: block;
+}
+
+.hideDesktop {
+  display: block;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .hideDesktop {
+  display: none;
+}
 
