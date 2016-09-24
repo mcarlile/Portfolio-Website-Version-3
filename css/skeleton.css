@@ -137,8 +137,9 @@ h1, h2, h3, p {
 
   h1 { font-size: 27px; line-height: 1.875; font-weight: 700; margin-bottom: 42px}
   h2 { font-size: 22px; line-height: 1.875; font-weight: 300; margin-bottom: 21px}
-  h3 { font-size: 18px; line-height: 1.563; font-weight: 300; margin-bottom: 21px;}
+  h3 { font-size: 18px; line-height: 1.563; font-weight: 500; margin-bottom: 21px;}
   p { font-size: 14px; line-height: 1.313; margin-bottom: 21px}
+  li {font-size: 11px; line-height: 1.25; margin-bottom: 0px;}
 
 
   /* Larger than phablet */
@@ -147,6 +148,7 @@ h1, h2, h3, p {
     h2 { font-size: 25px; line-height: 1.813; margin-bottom: 28px}
     h3 { font-size: 20px; line-height: 1.5; margin-bottom: 28px}
     p { font-size: 16px; line-height: 1.75; margin-bottom: 28px}
+    li { font-size: 14px; line-height: 1.75; margin-bottom: 0px}
   }
 
 
@@ -185,10 +187,10 @@ a:hover {
   color: #464646;
 }
 .navBarLinks a:hover {
-    padding-bottom: 3px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  text-decoration: none;
 }
 
 .navBarLinks .active {
@@ -361,9 +363,24 @@ ul {
       ol ol,
       ol ul {
         margin: 1.5rem 0 1.5rem 3rem;
-        font-size: 90%; }
-        li {
-          margin-bottom: 1rem; }
+      /*font-size: 90%;*/ }
+/*        li {
+
+  }*/
+}
+
+/*li {
+  font-size: 11px;
+  line-height: 1.125;
+}
+
+@media (min-width: 550px) {
+
+  li {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+  }*/
 
 
 /* Code
@@ -536,6 +553,10 @@ there.
 /* Positioning Utility Classes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.marginBottomHalf {
+  margin-bottom: 10px;
+}
+
 .marginBottomSingle {
   margin-bottom: 21px;
 }
@@ -546,6 +567,10 @@ there.
 
 .marginTopSingle {
   margin-top: 21px;
+}
+
+.marginTopHalf {
+  margin-top: 10px;
 }
 
 .marginTopDouble {
@@ -570,6 +595,10 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+  .marginBottomHalf {
+    margin-bottom: 16px;
+  }
+
   .marginBottomSingle {
     margin-bottom: 28px;
   }
@@ -578,6 +607,9 @@ there.
     margin-bottom: 56px;
   }
 
+  .marginTopHalf {
+    margin-top: 16px;
+  }
 
   .marginTopSingle {
     margin-top: 28px;
