@@ -165,12 +165,20 @@ p { font-size: 14px; line-height: 1.313; margin-bottom: 21px}
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   text-decoration: none;
-  color: #464646
 
 }
 a:hover {
-  color: #121212; }
+  text-decoration: underline;
+}
 
+.logo {
+  color: #464646;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #121212;
+}
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
