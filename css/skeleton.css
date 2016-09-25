@@ -167,6 +167,7 @@ h1, h2, h3, p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   text-decoration: none;
+  color: #427FE3;
 
 }
 a:hover {
@@ -213,7 +214,7 @@ nav li {
   padding: 28px 10px 0 10px;
 }
 
-nav h3 {
+.navBarLinks a {
   display: inline;
   font-weight: 300;
 }
@@ -363,8 +364,8 @@ ul {
       ul ol,
       ol ol,
       ol ul {
-        margin: 1.5rem 0 1.5rem 3rem;
-      /*font-size: 90%;*/ }
+/*        margin: 1.5rem 0 1.5rem 3rem;
+*/      /*font-size: 90%;*/ }
 /*        li {
 
   }*/
@@ -430,9 +431,6 @@ button,
     dl,
     figure,
     table,
-    p,
-    ul,
-    ol,
     form {
       margin-bottom: 2.5rem; }
 
