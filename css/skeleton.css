@@ -137,8 +137,8 @@ h1, h2, h3, p {
 
   h1 { font-size: 27px; line-height: 1.875; font-weight: 700; margin-bottom: 42px}
   h2 { font-size: 22px; line-height: 1.875; font-weight: 300; margin-bottom: 21px}
-  h3 { font-size: 18px; line-height: 1.563; font-weight: 500; margin-bottom: 21px;}
-  p { font-size: 14px; line-height: 1.313; margin-bottom: 21px}
+  h3 { font-size: 18px; line-height: 1.563; font-weight: 400; margin-bottom: 21px;}
+  p { font-size: 14px; line-height: 1.75; margin-bottom: 21px}
   li {font-size: 11px; line-height: 1.25; margin-bottom: 0px;}
 
 
@@ -215,6 +215,7 @@ nav li {
 
 nav h3 {
   display: inline;
+  font-weight: 300;
 }
 
 .navBarLinks {
@@ -686,4 +687,27 @@ there.
       display: none;
     }
 
+/* Quote
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.quote {
+  padding-left: 28px;
+  border-left-style: solid;
+  border-left-width: 9px;
+}
+
+.quote p {
+
+}
+
+.tangerineQuote {
+  border-color: #FFB03B;
+}
+
+.orangeQuote {
+  border-color: #E27A3F;
+}
+
+.taosQuote {
+  border-color: #A04F58
+}
