@@ -188,8 +188,10 @@ a:hover {
 }
 
 .navBarLinks a {
+  font-size: 14px;
   color: #464646;
 }
+
 .navBarLinks a:hover {
   padding-bottom: 3px;
   border-bottom-style: solid;
@@ -224,7 +226,11 @@ nav li {
 
 .navBarLinks {
   float: right;
-  padding-top: 7px;
+  padding-top: 11px;
+}
+
+@media (min-width: 550px) {
+  .navBarLinks {padding-top: 7px;}
 }
 
 .navBarLogo {
