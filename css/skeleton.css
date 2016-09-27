@@ -142,6 +142,9 @@ h1, h2, h3, p {
   li {font-size: 14px; line-height: 1.75;}
   .caption {font-size: 11px; line-height: 1.25; margin-bottom: 21px; font-style: italic;}
   .resume li {font-size: 11px; line-height: 1.25; margin-bottom: 0px;}
+  h1 em {
+    font-weight: 700;
+  }
 
   /* Larger than phablet */
   @media (min-width: 550px) {
@@ -728,4 +731,8 @@ there.
 
 .purpleQuote {
   border-color: #5B3556;
+}
+
+.blue70Quote {
+  border-color: #334D5C;
 }
