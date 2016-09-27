@@ -363,7 +363,7 @@ select {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
+/*ul {
   list-style: circle inside; }
   ol {
     list-style: decimal inside; }
@@ -373,7 +373,7 @@ ul {
       ul ul,
       ul ol,
       ol ol,
-      ol ul {
+      ol ul {*/
 /*        margin: 1.5rem 0 1.5rem 3rem;
 */      /*font-size: 90%;*/ }
 /*        li {

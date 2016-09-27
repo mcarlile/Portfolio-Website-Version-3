@@ -256,7 +256,7 @@
                   </div>
 
 
-                  <div class="row">
+                  <div class="row marginBottomDouble">
                     <div class="ten columns offset-by-one">
                       <p class="marginBottomHalf">I finally settled on an 8x8 grid visualization to map the locations that my grandmother mentioned in her journal. Presenting the information with such low fidelity represents the inexact nature of the handwritten data set and data extraction process.</p>
                       <p class="marginBottomSingle">I've included an example of this process above. For each week, I plotted all points from the dataset into a Mapbox project, broke the map into 64 equally-sized portions and encoded each section with a color in accordance to the frequency of locations mentioned that week.</p>
@@ -265,50 +265,240 @@
                       <h3>Interface Blueprint</h3>
                       <p>The final part of the project involves building the physical installation and coding the interactive interface. To reflect the fact that the information being visualized was originally stored in a physical artifact, I wanted my interface to be uniquely tactile. Viewers will navigate throughout time by twisting a physical control knob. The number of the current week is displayed next to the control knob using a 7-segment display board.</p>
                       <img class="fit" src="images/thesis-elevation.png">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h2>Build Process</h2>
+                      <h3>Programming the date selector</h2>
                       </div>
                     </div>
 
+                    <div class="row marginBottomSingle">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-selector.gif">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">The battery-powered control dial that users use to select the month being visualized connects to a Processing sketch over bluetooth low energy. The processing sketch talks to an LED display connected to an arduino board over serial and prints the month being visualized.</p>
+                    </div>
+                  </div>
+
+<!--                   <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h3>Building the cabinet</h2>
+                      </div>
+                    </div>
+
+                    <div class="row marginBottomSingle">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-drywall.png">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">To keep build costs down, I decided to repurpose an IKEA Kallax bookshelf to serve as the external frame. However, since this is a 4x4 grid, I had to use drywall to construct an internal frame for the 8x8 grid. This was a massive and frustrating project.</p>
+                    </div>
+                  </div> -->
+
 
                   <div class="row">
-                    <div class="quote eight columns offset-by-two marginBottomSingle marginTopDouble purpleQuote">
-                      <p class="italic marginBottomHalf">I think of my datebook as an external information organ, a piece of my brain made out of paper instead of cells.</p>
-                      <p class="mb0">- Michelle Hublinka</p>
+                    <div class="ten columns offset-by-one">
+                      <h3>Assembling the matrix</h2>
+                      </div>
+                    </div>
+
+                    <div class="row marginBottomSingle">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-wiring.jpg">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">To create the grid on which the visualization will be displayed, I used an 8x8 grid of RGB LEDs. I attached foam board to the back of the shelf to easily mount and adjust the LEDs.</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h3>Wiring the LEDs</h2>
+                      </div>
+                    </div>
+
+                    <div class="row marginBottomSingle">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-wirewrap.jpg">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">Each LED is connected to the matrix using a wire wrapping technique. I chose to wire wrap over solder each LED together because it elimnates the possibility of damaging or destroying LEDs. Additionally, using wire wrapping makes repairing easier because the wrapping can be undone quickly.</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h3>Connecting the LEDs to Arduino</h2>
+                      </div>
+                    </div>
+
+                    <div class="row marginBottomSingle">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-colorduino.jpg">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">The rows and columns of the LED matrix interface with the Arduino Uno through a RGB matrix shield called a Colorduino. The Arduino is then connected to a MacBook running a processing sketch. This part of the project was heavily influenced by an open source project by <a href="http://www.instructables.com/member/lincomatic/">@Lincomatic</a>.</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h3>Checking the LEDs</h2>
+                      </div>
+                    </div>
+
+                    <div class="row marginBottomSingle">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-colorcheck.gif">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">After wiring the LEDs together and connecting each strand to the Colorduino, I uploaded an open source program to check if each LED was working and addressable.</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h3>Assembling the controller enclosure</h2>
+                      </div>
+                    </div>
+
+                    <div class="row marginBottomSingle">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-controller.jpg">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">After wiring the LEDs together and connecting each strand to the Colorduino, I uploaded an open source program to check if each LED was working and addressable.</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h3>Installation in the sound stage</h2>
+                      </div>
+                    </div>
+
+                    <div class="row marginBottomDouble">
+                      <div class="five columns offset-by-one">
+                       <img class="fit" src="images/thesis-installation-1.jpg">
+                     </div>
+                     <div class="five columns">
+                      <p class="marginBottomHalf">The days leading up to the thesis showcase involved lots of last minute troubleshooting, multiple runs to True Value and some delirious caffeine dreams.</p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h2>The Final Project</h2>
+                      <p class="marginBottomHalf">The project was installed at the USC School of Cinematic Arts during the Media Arts + Practice thesis showcase from May 10 - 13. Since this was my first time designing an interactive installation, I learned a lot about designing phsyical things. After watching my visitors interact with the map, it was clear I should have paid more attention to the control dial. Even with the feedback of the small LCD screen, the continuous scroll of the mechanism confused viewers. After scrolling to the end of the year, they continued twisting the dial, making it appear broken. A knob with tactile notches for each month would have been much more effective.</p>
+                      <p>If I could have more time to rebuild the project, I would have made it smaller and brighter and I wouldn't have messed with retrofitting it into a preexisting cabinet. It could have been much more precise if I had built the frame out of wood and laquered it myself.</p>
+                      <p>Still, this thesis project was a joy because it gave me a chance to work with my hands and build something tangible. I can't wait to work on the next installation project!</p>
+                      <img class="fit" src="images/thesis-installation-7.jpg">
+                    </div>
+                  </div>
+
+
+                  <div class="row marginTopSingle">
+                    <div class="five columns offset-by-one">
+                      <img class="fit marginBottomDouble" src="images/thesis-installation-6.jpg">
+                    </div>
+                    <div class="five columns">
+                      <img class="fit marginBottomDouble" src="images/thesis-installation-3.jpg">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="five columns offset-by-one">
+                      <img class="fit marginBottomDouble" src="images/thesis-installation-4.jpg">
+                    </div>
+                    <div class="five columns">
+                      <img class="fit marginBottomDouble" src="images/thesis-installation-5.jpg">
                     </div>
                   </div>
 
 
 
 
+                  <div class="row">
+                    <div class="quote eight columns offset-by-two marginBottomDouble marginTopDouble purpleQuote">
+                      <p class="italic marginBottomHalf">I think of my datebook as an external information organ, a piece of my brain made out of paper instead of cells.</p>
+                      <p class="mb0">- Michelle Hublinka</p>
+                    </div>
+                  </div>
 
+                  <div class="row">
+                    <div class="ten columns offset-by-one">
+                      <h2>Works cited</h2>
+                      <p>The following pieces have inspired the development of this research design venture. Special thanks to Virginia Kuhn, Elizabeth Ramsey, Sonia Seetherman, Raphael Arar and Michael Bodie for guiding this design process.</p>
+                    </div>
+                  </div>
 
+                  <div class="row">
+
+                    <div class="three columns offset-by-one">
+                      <h3>Installations</h3>
+                      <ul>
+                        <li>Big Bang Data, Centre de Cultura Contemporania de Barcelona. 2014.</li>
+                        <li>Listening Post, by Mark Hansen and Ben Rubin. 2001.</li>
+                        <li>(+/-) Pendulum, by Raphael Arar. 2014.</li>
+                        <li>eCloud, by Aaron Koblin, Nik Hafermaas and Dan Goods. 2010.</li>
+                        <li>Immaterials Light Painting, by Timo Arnall, Jorn Knutsen and Einar Sneve Martinussen. 2011.</li>
+                      </ul>
+                    </div>
+                    <div class="three columns">
+                      <h3>Writing</h3>
+                      <ul>
+                       <li>Evocative Objects, Cherry Turkle. 2007.</li>
+                       <li>The Visual Display of Quantiative Information, Edward Tufte. 1983.</li>
+                       <li>The Annual Report of Feltron, #8 and #9, Nicholas Felton. 2012-2013.</li>
+                     </ul>
+                   </div>
+                   <div class="three columns">
+                    <h3>Talks</h3>
+                    <ul>
+                      <li>The Map is Not the Territory, Ethan Marcotte. <a href="https://vimeo.com/63525054">Video</a></li>
+                      <li>Too Big to Fail, Reaktor Design Day 2014, Nicholas Felton. <a href="https://vimeo.com/109119931">Video</a></li>
+                    </ul>
+                  </div>
                 </div>
 
-                <div class="container">
-                  <p class="center italic paddingTopSingle mb0">Want to get in touch?</p>
-                  <h2 class="center marginBottomSingle"><a href="">Send me an email</a></h2>
-                </div>
+
+
+
+
+
+
               </div>
 
-              <div class="stripe">
-                <table class="colorBar marginTopSingle">
-                  <td class="project0"></td>
-                  <td class="project1"></td>
-                  <td class="project2"></td>
-                  <td class="project3"></td>
-                  <td class="project4"></td>
-                  <td class="project5"></td>
-                  <td class="project6"></td>
-                  <td class="project7"></td>
-                </table>
+              <div class="container">
+                <p class="center italic paddingTopSingle mb0">Want to get in touch?</p>
+                <h2 class="center marginBottomSingle"><a href="">Send me an email</a></h2>
               </div>
+            </div>
 
-              <div class="footer paddingTopSingle paddingBottomSingle">
-               <div class="container">
-                <div class="row">
-                 <list class="white">© McKenzie Carlile 2011 -2016. All Rights Reserved. </list>
-               </div>
+            <div class="stripe">
+              <table class="colorBar marginTopSingle">
+                <td class="project0"></td>
+                <td class="project1"></td>
+                <td class="project2"></td>
+                <td class="project3"></td>
+                <td class="project4"></td>
+                <td class="project5"></td>
+                <td class="project6"></td>
+                <td class="project7"></td>
+              </table>
+            </div>
+
+            <div class="footer paddingTopSingle paddingBottomSingle">
+             <div class="container">
+              <div class="row">
+               <list class="white">© McKenzie Carlile 2011 -2016. All Rights Reserved. </list>
              </div>
            </div>
+         </div>
 
 
 
