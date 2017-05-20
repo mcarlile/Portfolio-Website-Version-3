@@ -154,7 +154,7 @@ h1, h2, h3, p {
     p { font-size: 16px; line-height: 1.75; margin-bottom: 28px}
     li { font-size: 14px; line-height: 1.75;}
     .caption {font-size: 14px; line-height: 1.75; margin-bottom: 28px; font-style: italic;}
-  .resume li {font-size: 14px; line-height: 1.75; margin-bottom: 0px }
+    .resume li {font-size: 14px; line-height: 1.75; margin-bottom: 0px }
 
   }
 
@@ -220,7 +220,7 @@ nav ul {
 
 nav li {
   display: inline;
-  padding: 28px 10px 0 10px;
+  padding: 0px 10px 0 10px;
 }
 
 .navBarLinks a {
@@ -230,16 +230,16 @@ nav li {
 
 .navBarLinks {
   float: right;
-  padding-top: 11px;
 }
 
-@media (min-width: 550px) {
-  .navBarLinks {padding-top: 7px;}
-}
+/*@media (min-width: 550px) {
+  .navBarLinks {padding-top: 48px;}
+  }*/
 
-.navBarLogo {
-  float: left;
-}
+  .navBarLogo {
+    float: left;
+    margin-top: 4px;
+  }
 
 
 /* Buttons
@@ -573,13 +573,66 @@ there.
 }
 
 
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .footer {
-  background-color: #323232
+  background-color: #272627;
 }
 
+
+.footer p {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px; 
+}
+
+@media (min-width: 550px) {
+  .footer p {
+    text-align: right;
+    margin-top: 0px;
+  }
+}
+
+#mail:hover #mail-icon {
+  fill: white;
+}
+
+#twitter:hover #twitter-icon {
+  fill: white;
+}
+
+#linkedin:hover #linkedin-icon {
+  fill: white;
+}
+
+#dribbble:hover #dribbble-icon {
+  fill: white;
+}
+
+#instagram:hover #instagram-icon {
+  fill: white
+}
+
+.footerIcon {
+  margin-right: 14px;
+  width: 28px;
+  height: 28px;
+}
+
+@media (min-width: 550px) {
+  .footerIcon {
+    margin-right: 28px;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+
+/*#mail-icon:hover{
+  fill: blue;
+  }*/
 
 
 /* Colors
@@ -587,6 +640,10 @@ there.
 
 .white {
   color: white;
+}
+
+.gray50 {
+  color: #777677;
 }
 
 .gray70 {
