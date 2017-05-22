@@ -588,6 +588,10 @@ there.
   margin-top: 10px; 
 }
 
+.footer a {
+  text-decoration: none;
+}
+
 @media (min-width: 550px) {
   .footer p {
     text-align: right;
@@ -621,12 +625,26 @@ there.
   height: 28px;
 }
 
+#footerIcons {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footerIcons-outer {
+  text-align: center;
+}
+
 @media (min-width: 550px) {
   .footerIcon {
     margin-right: 28px;
     width: 36px;
     height: 36px;
   }
+
+  #footerIcons-outer {
+  text-align: left;
+}
 }
 
 
@@ -697,6 +715,7 @@ there.
 .centered {
   text-align: center;
 }
+
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
