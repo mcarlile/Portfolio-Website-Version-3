@@ -660,12 +660,20 @@ there.
   color: white;
 }
 
+.blue80 {
+  background-color: #1D3649;
+}
+
 .gray50 {
   color: #777677;
 }
 
 .gray70 {
   color: #464646;
+}
+
+.cool2 {
+  background-color: #F9F9FB;
 }
 
 
@@ -815,6 +823,13 @@ there.
 
 .blue70Quote {
   border-color: #334D5C;
+}
+
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.shadowImage {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.20);
 }
 
 /* Video
