@@ -544,6 +544,10 @@ there.
   background-color: #1D3649
 }
 
+.teal30ColorBar {
+  background-color: #41D6C3;
+}
+
 /* Colorbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -823,6 +827,10 @@ there.
 
 .blue70Quote {
   border-color: #334D5C;
+}
+
+.teal30Quote {
+  border-color: #41D6C3;
 }
 
 /* Images
