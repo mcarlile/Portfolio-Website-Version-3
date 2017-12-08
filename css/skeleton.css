@@ -648,8 +648,8 @@ there.
   }
 
   #footerIcons-outer {
-  text-align: left;
-}
+    text-align: left;
+  }
 }
 
 
@@ -667,6 +667,10 @@ there.
 
 .blue80 {
   background-color: #1D3649;
+}
+
+.blue90 {
+  background-color: #1B2833;
 }
 
 .gray50 {
@@ -695,6 +699,14 @@ there.
 
 .marginBottomDouble {
   margin-bottom: 42px;
+}
+
+.marginBottomTriple {
+  margin-bottom: 63px;
+}
+
+.marginBottomQuad {
+  margin-bottom: 84px;
 }
 
 .marginTopSingle {
@@ -748,6 +760,14 @@ there.
     margin-bottom: 56px;
   }
 
+  .marginBottomTriple {
+    margin-bottom: 84px;
+  }
+
+  .marginBottomQuad {
+    margin-bottom: 112px;
+  }
+
   .marginTopHalf {
     margin-top: 16px;
   }
@@ -758,6 +778,14 @@ there.
 
   .marginTopDouble {
     margin-top: 56px;
+  }
+
+  .marginTopTriple {
+    margin-top: 84px;
+  }
+
+  .marginTopQuad {
+    margin-top: 112px;
   }
 
   .paddingBottomSingle {
