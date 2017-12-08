@@ -725,6 +725,14 @@ there.
   margin-top: 42px;
 }
 
+.marginTopTriple {
+  margin-top: 63px;
+}
+
+.marginTopQuad {
+  margin-top: 84px;
+}
+
 .paddingBottomSingle {
   padding-bottom: 21px;
 }
@@ -733,12 +741,28 @@ there.
   padding-bottom: 42px;
 }
 
+.paddingBottomTriple {
+  padding-bottom: 63px;
+}
+
+.paddingBottomQuad {
+  padding-bottom: 84px;
+}
+
 .paddingTopSingle {
   padding-top: 21px;
 }
 
 .paddingTopDouble {
   padding-top: 42px;
+}
+
+.paddingTopTriple {
+  padding-top: 63px;
+}
+
+.paddingTopQuad {
+  padding-top: 84px;
 }
 
 .centered {
@@ -796,6 +820,14 @@ there.
     padding-bottom: 56px;
   }
 
+  .paddingBottomTriple {
+    padding-bottom: 84px;
+  }
+
+  .paddingBottomQuad {
+    padding-bottom: 112px;
+  }
+
   .paddingTopSingle {
     padding-top: 28px;
   }
@@ -803,6 +835,14 @@ there.
   .paddingTopDouble {
     padding-top: 56px;
   }
+
+.paddingTopTriple {
+  padding-top: 84px;
+}
+
+.paddingTopQuad {
+  padding-top: 112px;
+}
 }
 
 /* Display Utility Classes
