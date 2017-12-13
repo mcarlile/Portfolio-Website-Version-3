@@ -266,7 +266,7 @@
             <li>Network with internal IBM and external subject matter experts</li>
             <li>Recruit potential sponsor users who would be interested in joining us in future design thinking workshops</li>
           </ol>
-          <p>The CDO Summit was an awesome learning experience because it's a little bit like AA for chief data officers. During the small group breakout sessions, the CDOs all got together in a circle to talk about what topics were stressing them out and what they hoped to improve on. They also got to share best practices and tips for new CDOs.</p>
+          <p>The CDO Summit was an awesome learning experience because it's a little bit like Alcoholics Anonymous for chief data officers. During the small group breakout sessions, the CDOs all got together in a circle to talk about what topics were stressing them out and what they hoped to improve on. They also got to share best practices and tips for new CDOs.</p>
           <p class="marginBottomTriple">Some of the highlights of this trip were interviewing governance teams during the coffee networking sessions and getting to meet IBM's own Chief Data Officer. It was an eye-opening research trip that opened me up to our users' hopes, dreams and fears.</p>
         </div>
       </div>
@@ -318,6 +318,7 @@
             <h4>Pain Point 1</h4>
             <h3>When data is soloed, it's difficult for consumers of data to find the information they need to analyze.</h3>
             <p>Data teams spend the majority of their time searching for data, not analyzing it.  Because organizations often store information assets in data warehouses across the company, data consumers often have to answer time consuming questions when starting a new analysis project. Where can I find relevant data? Who owns the data and how can I request access?</p>
+            <p class="marginBottomDouble">The diagram below shows the average amount of time data consumers spent working with data, broken down by task type. </p>
             <img class="fit marginBottomTriple" src="images/wdp-breakdown-diagram.png">
 
             <h4>Pain Point 2</h4>
@@ -343,9 +344,9 @@
       <div class="row">
         <div class="eight columns offset-by-two">
           <h2>Identifying Needs</h2>
-          <p>After our initial generative research phase, we switched gears into a period of scoping out a minimum viable versions of our to-be experiences. Armed with our understanding of our users, the tasks they are trying to accomplish and their pain points, we began to identify needs by writing hills.</p>
+          <p class="marginBottomTriple">After our initial generative research phase, we switched gears into a period of scoping out a minimum viable versions of our to-be experiences. Armed with our understanding of our users, the tasks they are trying to accomplish and their pain points, we began to identify needs by writing hills.</p>
           <H3>Writing Hills</H3>
-          <p>Once we were confident that we had a good understanding of how data teams work together and the problems that we wanted to solve, we began solidifying our to-be experience by writing Hills. As explained in my previous IBM StoredIQ for Legal case study, at IBM, we use Hills as a design tool to align our teams around a common vision for what we are building. Hills focus on user enablement and always define who we are solving for, what that person should be able to do and why it’s important.</p>
+          <p>Once we were confident that we had a good understanding of how data teams work together and the problems that we wanted to solve, we began solidifying our to-be experience by writing Hills. As explained in my previous <a href="./ibm.html" class="mb0 active">IBM StoredIQ for Legal case study</a>, at IBM, we use Hills as a design tool to align our teams around a common vision for what we are building. Hills focus on user enablement and always define who we are solving for, what that person should be able to do and why it’s important.</p>
 <!--           <p class="marginBottomTriple">For our open beta, we focused on writing four hills focused on the policy manager, business glossary, governance dashboard and 
 data classification system.</p> -->
 <p class="marginBottomTriple">For our open beta, we focused on writing three hills focused on the policy manager, business glossary and governance dashboard.</p>
@@ -367,7 +368,7 @@ data classification system.</p> -->
   <div class="row">
     <div class="eight columns offset-by-two">
       <h3>Mapping the to-be experience</h3>
-      <p>Because this was a large design project with many different components, it was essential to determine how we wanted users to move across the experiences when completing tasks. I worked with my researcher, product manager, design lead and dev lead to sketch out user flow diagrams to accomplish this. For each of the four hills, I created several separate flows that solidified our intent for how we wanted users to engage with each part of the product and made adjustments as needed.</p>
+      <p>Because this was a large design project with many different components, it was essential to determine how we wanted users to move across the experiences when completing tasks. I worked with my researcher, product manager, design lead and dev lead to sketch out user flow diagrams to accomplish this. For each of the three hills, I created several separate flows that solidified our intent for how we wanted users to engage with each part of the product and made adjustments as needed.</p>
       <p class="marginBottomTriple">These diagrams were supplemented by other information architecture artifacts such as sitemaps that showed the hierarchy and connections between elements in the platform.</p>
     </div>
   </div>
@@ -389,7 +390,7 @@ data classification system.</p> -->
   <div class="row">
     <div class="eight columns offset-by-two">
       <h3>Early Design Concepts</h3>
-      <p>While we were finalizing the information architecture, we started sketching and creating mid-fi wireframes for each of the four governance experiences. </p>
+      <p>While we were finalizing the information architecture, we started sketching and creating mid-fi wireframes for each of the three governance experiences. </p>
     </div>
   </div>
   <div class="row">
@@ -401,8 +402,7 @@ data classification system.</p> -->
   <div class="row">
     <div class="eight columns offset-by-two">
       <h3>Policy Manager</h3>
-      <p>Data policies and rules are at the core of most governance programs. In fact, we know from our research that in a perfect world, governance teams hope to have completed authoring rules and policies before data ingestion begins to fill a data lake.</p>
-      <p>One of the biggest pain points for governance teams are that policies and rules serve as documentation but cannot actually be enforced upon the data. A unique feature of our offering is that our engineering team has created a powerful policy enforcement engine that could directly govern data in the catalog. My challenge as a UX designer was to allow the members of a CDO office to interact with the Data Policy Service (DPS) to create data governance rules with complex logic and nest these rules in policies and categories without having to code anything.</p>
+      <p>Data policies and rules are at the core of most governance programs. One of the biggest pain points for governance teams are that policies and rules serve as documentation but cannot actually be enforced upon the data. A unique feature of our offering is that our engineering team has created a powerful policy enforcement engine that could directly govern data in the catalog. My challenge as a UX designer was to allow the members of a CDO office to interact with the Data Policy Service (DPS) to create data governance rules with complex logic and nest these rules in policies and categories without having to code anything.</p>
       <p>Another challenge when designing the Policy Manager was thinking through how to build an organization system that's simple enough for an MVP but complex enough to be able to hold our clients' realistic governance policies and rules. We experimented broadly with different organization methods, whether or not we should allow policies and rules to be nested within each other and how we should handle the lifecycle of policies from draft state to archive.</p>
     </div>
   </div>
