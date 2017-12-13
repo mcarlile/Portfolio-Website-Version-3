@@ -138,6 +138,7 @@ h1, h2, h3, p {
   h1 { font-size: 27px; line-height: 1.563; font-weight: 700; margin-bottom: 42px}
   h2 { font-size: 22px; line-height: 1.875; font-weight: 400; margin-bottom: 21px}
   h3 { font-size: 18px; line-height: 1.563; font-weight: 300; margin-bottom: 21px;}
+  h4 { font-size: 12px; line-height: 1.75; font-weight: 100; color: #464646; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 8px}
   p { font-size: 14px; line-height: 1.75; margin-bottom: 21px}
   li {font-size: 14px; line-height: 1.75;}
   .caption {font-size: 11px; line-height: 1.25; margin-bottom: 21px; font-style: italic;}
@@ -544,6 +545,10 @@ there.
   background-color: #1D3649
 }
 
+.teal30ColorBar {
+  background-color: #41D6C3;
+}
+
 /* Colorbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -643,8 +648,8 @@ there.
   }
 
   #footerIcons-outer {
-  text-align: left;
-}
+    text-align: left;
+  }
 }
 
 
@@ -660,12 +665,28 @@ there.
   color: white;
 }
 
+.blue80 {
+  background-color: #1D3649;
+}
+
+.blue90 {
+  background-color: #1B2833;
+}
+
 .gray50 {
   color: #777677;
 }
 
 .gray70 {
   color: #464646;
+}
+
+.cool2 {
+  background-color: #F9F9FB;
+}
+
+.siq4lblue80 {
+   background-color: #1C3141
 }
 
 
@@ -684,8 +705,20 @@ there.
   margin-bottom: 42px;
 }
 
+.marginBottomTriple {
+  margin-bottom: 63px;
+}
+
+.marginBottomQuad {
+  margin-bottom: 84px;
+}
+
 .marginTopSingle {
   margin-top: 21px;
+}
+
+.marginTopFour {
+  margin-top: 4px;
 }
 
 .marginTopHalf {
@@ -696,6 +729,14 @@ there.
   margin-top: 42px;
 }
 
+.marginTopTriple {
+  margin-top: 63px;
+}
+
+.marginTopQuad {
+  margin-top: 84px;
+}
+
 .paddingBottomSingle {
   padding-bottom: 21px;
 }
@@ -704,12 +745,28 @@ there.
   padding-bottom: 42px;
 }
 
+.paddingBottomTriple {
+  padding-bottom: 63px;
+}
+
+.paddingBottomQuad {
+  padding-bottom: 84px;
+}
+
 .paddingTopSingle {
   padding-top: 21px;
 }
 
 .paddingTopDouble {
   padding-top: 42px;
+}
+
+.paddingTopTriple {
+  padding-top: 63px;
+}
+
+.paddingTopQuad {
+  padding-top: 84px;
 }
 
 .centered {
@@ -731,6 +788,14 @@ there.
     margin-bottom: 56px;
   }
 
+  .marginBottomTriple {
+    margin-bottom: 84px;
+  }
+
+  .marginBottomQuad {
+    margin-bottom: 112px;
+  }
+
   .marginTopHalf {
     margin-top: 16px;
   }
@@ -743,12 +808,28 @@ there.
     margin-top: 56px;
   }
 
+  .marginTopTriple {
+    margin-top: 84px;
+  }
+
+  .marginTopQuad {
+    margin-top: 112px;
+  }
+
   .paddingBottomSingle {
     padding-bottom: 28px;
   }
 
   .paddingBottomDouble {
     padding-bottom: 56px;
+  }
+
+  .paddingBottomTriple {
+    padding-bottom: 84px;
+  }
+
+  .paddingBottomQuad {
+    padding-bottom: 112px;
   }
 
   .paddingTopSingle {
@@ -758,6 +839,14 @@ there.
   .paddingTopDouble {
     padding-top: 56px;
   }
+
+.paddingTopTriple {
+  padding-top: 84px;
+}
+
+.paddingTopQuad {
+  padding-top: 112px;
+}
 }
 
 /* Display Utility Classes
@@ -815,6 +904,17 @@ there.
 
 .blue70Quote {
   border-color: #334D5C;
+}
+
+.teal30Quote {
+  border-color: #41D6C3;
+}
+
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.shadowImage {
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.20);
 }
 
 /* Video
